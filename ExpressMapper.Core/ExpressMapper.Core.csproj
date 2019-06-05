@@ -6,10 +6,10 @@
 		<AssemblyVersion>1.9.2.0</AssemblyVersion>
 		<FileVersion>1.9.2.0</FileVersion> 
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Yuriy Anisimov, Nicholas Petersen</Authors>
+    <Authors>Yuriy Anisimov</Authors>
     <RepositoryUrl>https://github.com/copernicus365/ExpressMapper</RepositoryUrl>
     <PackageProjectUrl>http://expressmapper.org/</PackageProjectUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageTags>Mapper .net-mapper mapping object-to-object conventional-mapping fluent-api-mapping</PackageTags>
     <PackageReleaseNotes />
     <Description>ExpressMapper.Core is a fork of ExpressMapper built against netstandard. ExpressMapper is a lightweight, fast and easy to use .Net mapper to map one type of object(s) to another. ExpressMapper relies completely on the expression trees.</Description>

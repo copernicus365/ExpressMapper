@@ -1,6 +1,6 @@
 # ExpressMapper.Core 
 
-ExpressMapper.Core is a fork of Expressmapper built against netstandard2.0, net461, and net471. No or next to no core code changes were made at this point (6/2019) from the original project, which itself has been quiet since 2017, and was in desparate need of an update. The "NETCORE" project version was an old xproj thing, etc.
+ExpressMapper.Core is a fork of Expressmapper built against netstandard2.0 and net471. The only code changes at this point (6/2019) are project / solution level changes from the original project, which itself has been quiet since 2017, and was in desparate need of an update. The "NETCORE" project version was an old xproj thing, etc.
 
 # Expressmapper
 
