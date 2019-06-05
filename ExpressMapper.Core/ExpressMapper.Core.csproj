@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;net471</TargetFrameworks>
+		<Version>1.9.2.0</Version>
+		<AssemblyVersion>1.9.2.0</AssemblyVersion>
+		<FileVersion>1.9.2.0</FileVersion> 
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Yuriy Anisimov, Nicholas Petersen</Authors>
+    <RepositoryUrl>https://github.com/copernicus365/ExpressMapper</RepositoryUrl>
+    <PackageProjectUrl>http://expressmapper.org/</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Mapper .net-mapper mapping object-to-object conventional-mapping fluent-api-mapping</PackageTags>
+    <PackageReleaseNotes />
+    <Description>ExpressMapper.Core is a fork of ExpressMapper built against netstandard. ExpressMapper is a lightweight, fast and easy to use .Net mapper to map one type of object(s) to another. ExpressMapper relies completely on the expression trees.</Description>
+		<NoWarn>1591;1701;1702;1705;0168;1998;</NoWarn>
+  </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile>bin\Debug\netstandard2.0\ExpressMapper.Core.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DocumentationFile>bin\Release\netstandard2.0\ExpressMapper.Core.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+	</ItemGroup>
+
+</Project>
